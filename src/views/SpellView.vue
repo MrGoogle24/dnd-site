@@ -1,13 +1,18 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 const searchItem = ref('')
 
 const spells = ['fireball', 'magic missile', 'fire bolt']
 
-const serachResult = spells.filter((spell) => {
-  spells.includes(spell.toLowerCase())
+const serachResult = computed(() => {
+  return spells.filter((spell) => {
+    if (spell.includes(searchItem.value)) {
+      return true
+    } else {
+      return false
+    }
+  })
 })
 </script>
 
