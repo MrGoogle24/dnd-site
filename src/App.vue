@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/test">Test!</RouterLink>
     </nav>
   </header>
+  <RouterView />
 </template>
 
 <style scoped>
