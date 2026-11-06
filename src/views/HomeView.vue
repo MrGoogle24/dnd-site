@@ -2,7 +2,9 @@
 
 <template>
   <main>
-    <h1>hello world!</h1>
+    <div id="home">
+      <h1>hello world!</h1>
+    </div>
   </main>
 </template>
 
