@@ -5,7 +5,8 @@ const count = ref(0)
 </script>
 
 <template>
-  <button @click="count++">You clikced me {{ count }} times!</button>
+  <button @click="count++">click me!</button>
+  <p>you have clicked the button above {{ count }} times.</p>
 </template>
 
 <style></style>
