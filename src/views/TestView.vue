@@ -4,6 +4,13 @@ import TestCounter from '@/components/TestCounter.vue'
 
 <template>
   <TestCounter />
+  <TestCounter />
+  <TestCounter />
+  <TestCounter />
+  <TestCounter />
+  <TestCounter />
+  <TestCounter />
+  <TestCounter />
 </template>
 
 <style></style>
