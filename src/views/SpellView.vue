@@ -7,7 +7,7 @@ const spells = ['fireball', 'magic missile', 'fire bolt']
 
 const serachResult = computed(() => {
   return spells.filter((spell) => {
-    if (spell.includes(searchItem.value)) {
+    if (spell.includes(searchItem.value.toLowerCase())) {
       return true
     } else {
       return false
