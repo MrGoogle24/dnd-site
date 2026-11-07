@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'spells',
       component: () => import('../views/SpellView.vue'),
     },
+    {
+      path: '/test',
+      name: 'test',
+      component: () => import('../views/TestView.vue'),
+    },
   ],
 })
 
