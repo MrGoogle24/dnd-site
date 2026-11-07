@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import FloatingButtons from 'vue-floating-buttons'
-Vue.component('FloatingButtons', FloatingButtons)
+import { ref } from 'vue'
+
+const count = ref(0)
 </script>
 
 <template>
-  <div id="test">
-    <FloatingButtons :buttons="buttons" />
-  </div>
+  <button @click="count++">You clikced me {{ count }} times!</button>
 </template>
 
 <style></style>
