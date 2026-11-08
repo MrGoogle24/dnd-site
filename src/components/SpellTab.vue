@@ -23,7 +23,7 @@ defineProps<{
 </template>
 
 <style>
-.maximise-spell {
+#maximise-spell {
   background-color: red;
 }
 </style>
