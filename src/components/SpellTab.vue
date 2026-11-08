@@ -30,7 +30,7 @@ defineProps<{
   text-align: left;
   color: #aaa;
 
-  width: 80%;
+  width: 100%;
   height: 20%;
 }
 </style>
