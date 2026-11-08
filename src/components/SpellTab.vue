@@ -22,4 +22,8 @@ defineProps<{
   <div id="spell-maximised"></div>
 </template>
 
-<style></style>
+<style>
+.maximise-spell {
+  background-color: red;
+}
+</style>

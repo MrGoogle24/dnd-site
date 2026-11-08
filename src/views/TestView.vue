@@ -7,8 +7,4 @@ import spells from '@/assets/spells.json'
   <SpellTab v-for="spell in spells" :key="spell.name" v-bind="spell" />
 </template>
 
-<style>
-SpellTab {
-  background-color: red;
-}
-</style>
+<style></style>
