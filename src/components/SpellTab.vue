@@ -31,6 +31,6 @@ defineProps<{
   color: #aaa;
 
   width: 80%;
-  height: 10%;
+  height: 20%;
 }
 </style>
