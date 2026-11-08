@@ -27,6 +27,8 @@ defineProps<{
   background-color: #181818;
   border-radius: 2px;
   border-color: hsla(200, 100%, 37%, 0.2);
+  text-align: left;
+  color: aliceblue;
 
   width: 80%;
 }
