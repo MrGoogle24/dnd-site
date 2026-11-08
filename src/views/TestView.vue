@@ -4,7 +4,7 @@ import spells from '@/assets/spells.json'
 </script>
 
 <template>
-  <SpellTab v-for="spell in spells" :key="spell.name" spell-name="spell" />
+  <SpellTab v-for="spell in spells" :key="spell.name" v-bind="spell" />
 </template>
 
 <style></style>
