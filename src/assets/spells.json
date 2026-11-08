@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Acid Splash",
+    "level": 0,
+    "casting time": "1 Action",
+    "range": "5 Foot Sphere",
+    "Components": "V, S",
+    "Duration": "Instantaneous",
+    "School": "Evocation",
+    "AttackMod": null,
+    "Save": "DEX save",
+    "Damage/Effect": "Acid"
+  }
+]

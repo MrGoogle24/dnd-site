@@ -1,16 +1,10 @@
 <script setup lang="ts">
-import TestCounter from '@/components/TestCounter.vue'
+import SpellTab from '@/components/SpellTab.vue'
+import spells from '@/assets/spells.json'
 </script>
 
 <template>
-  <TestCounter />
-  <TestCounter />
-  <TestCounter />
-  <TestCounter />
-  <TestCounter />
-  <TestCounter />
-  <TestCounter />
-  <TestCounter />
+  <SpellTab v-for="spell in spells" :key="spell.name" spell-name="spell" />
 </template>
 
 <style></style>
