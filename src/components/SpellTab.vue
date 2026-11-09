@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   name: string
-  /*  level: number
+  level: number
   castingTime: string
   range: string
   components: string
@@ -9,15 +9,13 @@ defineProps<{
   school: string
   save: string
   damage: string
-  effect: string */
+  effect: string
 }>()
 </script>
 
 <template>
   <div id="spell-minimised">
-    <button id="maximise-spell">
-      {{ name }}
-    </button>
+    <button id="maximise-spell">{{ level }} {{ name }}</button>
   </div>
   <div id="spell-maximised"></div>
 </template>
