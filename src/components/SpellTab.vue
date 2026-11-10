@@ -67,4 +67,8 @@ defineProps<{
   text-align: center;
   flex-shrink: 0;
 }
+
+.spell-name {
+  font-size: 50%;
+}
 </style>
