@@ -2,14 +2,14 @@
 defineProps<{
   name: string
   level: number
-  /* castingTime: string
+  castingTime: string
   range: string
   components: string
   duration: string
   school: string
   save: string
   damage: string
-  effect: string*/
+  effect: string
 }>()
 </script>
 
@@ -30,6 +30,8 @@ defineProps<{
         }}
       </span>
       <span class="spell-name">{{ name }}</span>
+      <br />
+      <span class="spell-school"> {{ school }}</span>
     </button>
   </div>
   <div class="spell-maximised" hidden></div>
