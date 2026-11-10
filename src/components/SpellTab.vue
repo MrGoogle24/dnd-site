@@ -20,12 +20,12 @@ defineProps<{
         level == 0
           ? 'Cantrip'
           : level == 1
-            ? '1st'
+            ? '1st    '
             : level == 2
-              ? '2nd'
+              ? '2nd    '
               : level == 3
-                ? '3rd'
-                : level + 'th'
+                ? '3rd    '
+                : level + 'th    '
       }}
       {{ name }}
     </button>
