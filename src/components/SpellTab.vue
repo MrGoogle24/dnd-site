@@ -32,15 +32,17 @@ defineProps<{
       </span>
       <span class="spell-info">
         <span class="spell-name"> {{ name }} </span> <br />
-        <span class="spell-castingTime"> {{ castingTime }} </span>
-        <span class="spell-range"> {{ range }} </span>
-        <span class="spell-components"> ({{ components }}) </span>
-        <span class="spell-duration"> {{ duration }}</span>
-        <span class="spell-school"> {{ school }} </span>
-        <span class="speall-attackMod"> {{ attackMod == null ? '' : '+' + attackMod }} </span>
-        <span class="spell-save"> {{ save }} </span>
-        <span class="spell-damage"> {{ damage }} </span>
-        <span class="spell-effect"> {{ effect == null ? '' : effect }} </span>
+        <div class="spell-sub-info">
+          <span class="spell-castingTime"> {{ castingTime }} </span>
+          <span class="spell-range"> {{ range }} </span>
+          <span class="spell-components"> ({{ components }}) </span>
+          <span class="spell-duration"> {{ duration }}</span>
+          <span class="spell-school"> {{ school }} </span>
+          <span class="speall-attackMod"> {{ attackMod == null ? '' : '+' + attackMod }} </span>
+          <span class="spell-save"> {{ save }} </span>
+          <span class="spell-damage"> {{ damage }} </span>
+          <span class="spell-effect"> {{ effect == null ? '' : effect }} </span>
+        </div>
       </span>
     </button>
   </div>
@@ -70,5 +72,9 @@ defineProps<{
 
 .spell-name {
   font-size: 120%;
+}
+
+.spell-sub-info {
+  font-size: 80%;
 }
 </style>
