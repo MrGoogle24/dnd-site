@@ -7,7 +7,7 @@ defineProps<{
   components: string
   duration: string
   school: string
-  attackMod: string | null
+  attackMod: number | null
   save: string | null
   damage: string
   effect: string | null
