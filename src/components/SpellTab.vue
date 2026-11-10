@@ -3,13 +3,14 @@ defineProps<{
   name: string
   level: number
   castingTime: string
-  /* range: string
+  range: string
   components: string
   duration: string
   school: string
+  attackMod: string
   save: string
   damage: string
-  effect: string*/
+  effect: string
 }>()
 </script>
 
@@ -31,7 +32,15 @@ defineProps<{
       </span>
       <span class="spell-info">
         <span class="spell-name"> {{ name }} </span> <br />
-        <span class="spell-castingTime"> {{ castingTime }} </span>
+        <span class="spell-castingTime"> {{ castingTime }} </span>,
+        <span class="spell-range"> {{ range }} </span>,
+        <span class="spell-components"> ({{ components }}) </span>,
+        <span class="spell-duration"> {{ duration }}</span
+        >, <span class="spell-school"> {{ school }} </span>,
+        <span class="speall-attackMod"> {{ attackMod == null ? '' : '+' + attackMod }} </span>,
+        <span class="spell-save"> {{ save }} </span>,
+        <span class="spell-damage"> {{ damage }} </span>,
+        <span class="spell-effect"> {{ effect == null ? '' : effect }} </span>
       </span>
     </button>
   </div>
