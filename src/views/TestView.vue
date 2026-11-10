@@ -5,12 +5,12 @@ import spells from '@/assets/spells.json'
 
 <template>
   <div class="spell-list">
-    <SpellTab v-for="spell in spells" :key="spell.name" v-bind="spell" />
+    <SpellTab class="spell" v-for="spell in spells" :key="spell.name" v-bind="spell" />
   </div>
 </template>
 
 <style>
-.spell-list {
-  gap: 100%;
+.spell {
+  padding: 5%;
 }
 </style>
