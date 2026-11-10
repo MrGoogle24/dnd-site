@@ -11,6 +11,6 @@ import spells from '@/assets/spells.json'
 
 <style>
 .spell-list {
-  gap: 8%;
+  gap: 100%;
 }
 </style>
