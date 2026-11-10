@@ -116,6 +116,11 @@ defineProps<{
   width: 12ch;
 }
 
+.spell-range {
+  text-align: center;
+  width: 14ch;
+}
+
 .spell-components {
   text-align: center;
   width: 9ch;

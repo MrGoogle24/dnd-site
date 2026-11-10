@@ -15,7 +15,7 @@
   {
     "name": "Acid Splash",
     "level": 1,
-    "castingTime": "Action",
+    "castingTime": "Bonus Action",
     "range": "5 Foot Sphere",
     "components": "V, S",
     "duration": "Instant",
