@@ -39,7 +39,7 @@ defineProps<{
           <span class="spell-duration">{{ duration }}</span>
           <span class="spell-school"> {{ school }} </span>
           <span class="spell-attackMod">{{ attackMod ? '+' + attackMod : '' }}</span>
-          <span class="spell-save">{{ save == null ? '' : save }}</span>
+          <span class="spell-save">{{ save == null ? ' ' : save }}</span>
           <span class="spell-damage">{{ damage }}</span>
           <span class="spell-effect">{{ effect == null ? '' : effect }}</span>
         </div>
