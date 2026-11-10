@@ -31,17 +31,17 @@ defineProps<{
         }}
       </span>
       <span class="spell-info">
-        <span class="spell-name"> {{ name }} </span> <br />
+        <span class="spell-name">{{ name }}</span> <br />
         <div class="spell-sub-info">
-          <span class="spell-castingTime"> {{ castingTime }} </span>
-          <span class="spell-range"> {{ range }} </span>
-          <span class="spell-components"> ({{ components }}) </span>
-          <span class="spell-duration"> {{ duration }}</span>
+          <span class="spell-castingTime">{{ castingTime }}</span>
+          <span class="spell-range">{{ range }}</span>
+          <span class="spell-components">({{ components }})</span>
+          <span class="spell-duration">{{ duration }}</span>
           <span class="spell-school"> {{ school }} </span>
-          <span v-if="attackMod" class="spell-attackMod"> {{ '+' + attackMod }} </span>
-          <span v-if="save" class="spell-save"> {{ save }} </span>
-          <span class="spell-damage"> {{ damage }} </span>
-          <span v-if="effect" class="spell-effect"> {{ effect }} </span>
+          <span class="spell-attackMod">{{ attackMod ? '+' + attackMod : '' }}</span>
+          <span class="spell-save">{{ save == null ? '' : save }}</span>
+          <span class="spell-damage">{{ damage }}</span>
+          <span class="spell-effect">{{ effect == null ? '' : effect }}</span>
         </div>
       </span>
     </button>
