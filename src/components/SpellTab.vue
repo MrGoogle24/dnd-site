@@ -50,6 +50,14 @@ defineProps<{
 </template>
 
 <style>
+@media (max-width: 600px) {
+  .spell-school,
+  .spell-components,
+  .spell-duration {
+    display: none;
+  }
+}
+
 .maximise-spell {
   background-color: #181818;
   border-radius: 2px;
