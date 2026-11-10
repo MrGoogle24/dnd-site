@@ -75,8 +75,10 @@ defineProps<{
 }
 
 .spell-sub-info {
+  display: flex;
+  gap: 1rem;
+
   font-size: 80%;
   color: #999;
-  row-gap: 1rem;
 }
 </style>
