@@ -50,35 +50,6 @@ defineProps<{
 </template>
 
 <style>
-@media (max-width: 600px) {
-  .spell-school,
-  .spell-components,
-  .spell-duration {
-    display: none;
-  }
-
-  .maximise-spell {
-    background-color: #181818;
-    border-radius: 2px;
-    border-color: hsla(200, 100%, 37%, 0.2);
-    text-align: left;
-    color: #aaa;
-    display: flex;
-    gap: 0.3rem;
-
-    width: 100%;
-    padding: 0.75rem 1rem;
-  }
-
-  .spell-sub-info {
-    display: flex;
-    gap: 0.3rem;
-
-    font-size: 80%;
-    color: #999;
-  }
-}
-
 .maximise-spell {
   background-color: #181818;
   border-radius: 2px;
@@ -128,7 +99,7 @@ defineProps<{
 
 .spell-duration {
   text-align: center;
-  width: 8ch;
+  width: 13ch;
 }
 
 .spell-school {
@@ -154,5 +125,37 @@ defineProps<{
 .spell-effect {
   text-align: center;
   width: 14ch;
+}
+
+@media (max-width: 600px) {
+  .spell-sub-info {
+    display: flex;
+    gap: 0.3rem;
+
+    font-size: 80%;
+    color: #999;
+  }
+  .maximise-spell {
+    gap: 0.3rem;
+  }
+
+  .spell-sub-info {
+    flex-wrap: wrap;
+    gap: 0.25rem 0.5rem;
+  }
+
+  .spell-sub-info span {
+    width: auto;
+  }
+
+  .spell-sub-info span:empty {
+    display: none;
+  }
+
+  .spell-school,
+  .spell-components,
+  .spell-duration {
+    display: none;
+  }
 }
 </style>
