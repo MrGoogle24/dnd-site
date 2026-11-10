@@ -11,7 +11,6 @@ import spells from '@/assets/spells.json'
 
 <style>
 .spell-list {
-  display: flex;
   gap: 4%;
 }
 </style>
