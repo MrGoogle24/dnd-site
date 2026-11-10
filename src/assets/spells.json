@@ -2,7 +2,7 @@
   {
     "name": "Acid Splash",
     "level": 0,
-    "castingTime": "1 Action",
+    "castingTime": "Action",
     "range": "5 Foot Sphere",
     "components": "V, S",
     "duration": "Instant",
@@ -15,7 +15,7 @@
   {
     "name": "Acid Splash",
     "level": 1,
-    "castingTime": "1 Action",
+    "castingTime": "Action",
     "range": "5 Foot Sphere",
     "components": "V, S",
     "duration": "Instant",
@@ -28,7 +28,7 @@
   {
     "name": "Acid Splash",
     "level": 2,
-    "castingTime": "1 Action",
+    "castingTime": "Action",
     "range": "5 Foot Sphere",
     "components": "V, S",
     "duration": "Instant",
@@ -41,7 +41,7 @@
   {
     "name": "Acid Splash",
     "level": 3,
-    "castingTime": "1 Action",
+    "castingTime": "Action",
     "range": "5 Foot Sphere",
     "components": "V, S",
     "duration": "Instant",
@@ -54,7 +54,7 @@
   {
     "name": "Acid Splash",
     "level": 4,
-    "castingTime": "1 Action",
+    "castingTime": "Action",
     "range": "5 Foot Sphere",
     "components": "V, S",
     "duration": "Instant",
