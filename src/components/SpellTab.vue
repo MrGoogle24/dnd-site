@@ -76,5 +76,6 @@ defineProps<{
 
 .spell-sub-info {
   font-size: 80%;
+  color: #999;
 }
 </style>
