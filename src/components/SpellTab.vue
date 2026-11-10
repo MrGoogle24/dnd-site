@@ -69,6 +69,6 @@ defineProps<{
 }
 
 .spell-name {
-  font-size: 12px;
+  font-size: 120%;
 }
 </style>
