@@ -112,34 +112,42 @@ defineProps<{
 }
 
 .spell-castingTime {
+  text-align: center;
   width: 12ch;
 }
 
 .spell-components {
+  text-align: center;
   width: 9ch;
 }
 
 .spell-duration {
+  text-align: center;
   width: 8ch;
 }
 
 .spell-school {
+  text-align: center;
   width: 13ch;
 }
 
 .spell-attackMod {
+  text-align: center;
   width: 3ch;
 }
 
 .spell-save {
+  text-align: center;
   width: 8ch;
 }
 
 .spell-damage {
+  text-align: center;
   width: 10ch;
 }
 
 .spell-effect {
+  text-align: center;
   width: 14ch;
 }
 </style>
