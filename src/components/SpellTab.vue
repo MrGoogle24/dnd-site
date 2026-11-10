@@ -7,10 +7,10 @@ defineProps<{
   components: string
   duration: string
   school: string
-  attackMod: string
-  save: string
+  attackMod: string | null
+  save: string | null
   damage: string
-  effect: string
+  effect: string | null
 }>()
 </script>
 
