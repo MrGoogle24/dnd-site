@@ -65,7 +65,7 @@ defineProps<{
 
 .spell-level {
   color: aquamarine;
-  width: 6rem;
+  width: clamp(3.5rem, 12vw, 6rem);
   text-align: center;
   flex-shrink: 0;
 }
