@@ -9,7 +9,7 @@ defineProps<{
   school: string
   attackMod: number | null
   save: string | null
-  damage: string
+  damage: string | null
   effect: string | null
 }>()
 </script>
@@ -40,7 +40,7 @@ defineProps<{
           <span class="spell-school"> {{ school }} </span>
           <span class="spell-attackMod">{{ attackMod ? '+' + attackMod : '' }}</span>
           <span class="spell-save">{{ save == null ? '' : save }}</span>
-          <span class="spell-damage">{{ damage }}</span>
+          <span class="spell-damage">{{ damage == null ? '' : damage }}</span>
           <span class="spell-effect">{{ effect == null ? '' : effect }}</span>
         </div>
       </span>
