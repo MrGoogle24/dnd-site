@@ -57,6 +57,19 @@ defineProps<{
     display: none;
   }
 
+  .maximise-spell {
+    background-color: #181818;
+    border-radius: 2px;
+    border-color: hsla(200, 100%, 37%, 0.2);
+    text-align: left;
+    color: #aaa;
+    display: flex;
+    gap: 0.3rem;
+
+    width: 100%;
+    padding: 0.75rem 1rem;
+  }
+
   .spell-sub-info {
     display: flex;
     gap: 0.3rem;
