@@ -39,7 +39,7 @@ defineProps<{
           <span class="spell-duration">{{ duration }}</span>
           <span class="spell-school"> {{ school }} </span>
           <span class="spell-attackMod">{{ attackMod ? '+' + attackMod : '' }}</span>
-          <span class="spell-save">{{ save == null ? '  ' : save }}</span>
+          <span class="spell-save">{{ save == null ? '' : save }}</span>
           <span class="spell-damage">{{ damage }}</span>
           <span class="spell-effect">{{ effect == null ? '' : effect }}</span>
         </div>
@@ -109,5 +109,37 @@ defineProps<{
 
   font-size: 80%;
   color: #999;
+}
+
+.spell-castingTime {
+  width: 12ch;
+}
+
+.spell-components {
+  width: 9ch;
+}
+
+.spell-duration {
+  width: 8ch;
+}
+
+.spell-school {
+  width: 13ch;
+}
+
+.spell-attackMod {
+  width: 3ch;
+}
+
+.spell-save {
+  width: 8ch;
+}
+
+.spell-damage {
+  width: 10ch;
+}
+
+.spell-effect {
+  width: 14ch;
 }
 </style>
