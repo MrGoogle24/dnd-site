@@ -30,8 +30,8 @@ defineProps<{
         }}
       </span>
       <span class="spell-info">
-        {{ name }} <br />
-        {{ castingTime }}
+        <span class="spell-name"> {{ name }} </span> <br />
+        <span class="spell-castingTime"> {{ castingTime }} </span>
       </span>
     </button>
   </div>
