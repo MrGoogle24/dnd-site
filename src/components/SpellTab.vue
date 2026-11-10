@@ -56,6 +56,14 @@ defineProps<{
   .spell-duration {
     display: none;
   }
+
+  .spell-sub-info {
+    display: flex;
+    gap: 0.3rem;
+
+    font-size: 80%;
+    color: #999;
+  }
 }
 
 .maximise-spell {
