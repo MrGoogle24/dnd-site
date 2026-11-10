@@ -63,6 +63,11 @@ defineProps<{
   padding: 0.75rem 1rem;
 }
 
+.spell-info {
+  flex: 1;
+  min-width: 0;
+}
+
 .spell-level {
   color: aquamarine;
   width: clamp(3.5rem, 12vw, 6rem);
