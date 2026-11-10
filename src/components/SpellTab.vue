@@ -38,7 +38,7 @@ defineProps<{
           <span class="spell-components"> ({{ components }}) </span>
           <span class="spell-duration"> {{ duration }}</span>
           <span class="spell-school"> {{ school }} </span>
-          <span v-if="attackMod" class="speall-attackMod"> {{ '+' + attackMod }} </span>
+          <span v-if="attackMod" class="spell-attackMod"> {{ '+' + attackMod }} </span>
           <span v-if="save" class="spell-save"> {{ save }} </span>
           <span class="spell-damage"> {{ damage }} </span>
           <span v-if="effect" class="spell-effect"> {{ effect }} </span>

@@ -33,7 +33,7 @@
     "components": "V, S",
     "duration": "Instant",
     "school": "Evocation",
-    "attackMod": null,
+    "attackMod": 1,
     "save": "DEX save",
     "damage": "Acid",
     "effect": null
