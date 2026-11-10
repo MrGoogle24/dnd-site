@@ -29,9 +29,10 @@ defineProps<{
                   : level + 'th'
         }}
       </span>
-      <span class="spell-name">{{ name }}</span>
-      <br />
-      <span class="spell-school"> {{ castingTime }}</span>
+      <span class="spell-info">
+        {{ name }} <br />
+        {{ castingTime }}
+      </span>
     </button>
   </div>
   <div class="spell-maximised" hidden></div>
