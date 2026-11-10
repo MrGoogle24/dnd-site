@@ -15,9 +15,22 @@ defineProps<{
 
 <template>
   <div id="spell-minimised">
-    <button id="maximise-spell">{{ level }} {{ name }}</button>
+    <button id="maximise-spell">
+      {{
+        level == 0
+          ? 'Cantrip'
+          : level == 1
+            ? '1st'
+            : level == 2
+              ? '2nd'
+              : level == 3
+                ? '3rd'
+                : level + 'th'
+      }}
+      {{ name }}
+    </button>
   </div>
-  <div id="spell-maximised"></div>
+  <div id="spell-maximised" hidden></div>
 </template>
 
 <style>

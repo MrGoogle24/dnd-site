@@ -11,5 +11,57 @@
     "save": "DEX save",
     "damage": "Acid",
     "effect": null
+  },
+  {
+    "name": "Acid Splash",
+    "level": 1,
+    "castingTime": "1 Action",
+    "range": "5 Foot Sphere",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackMod": null,
+    "save": "DEX save",
+    "damage": "Acid",
+    "effect": null
+  },
+  {
+    "name": "Acid Splash",
+    "level": 2,
+    "castingTime": "1 Action",
+    "range": "5 Foot Sphere",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackMod": null,
+    "save": "DEX save",
+    "damage": "Acid",
+    "effect": null
+  },
+  {
+    "name": "Acid Splash",
+    "level": 3,
+    "castingTime": "1 Action",
+    "range": "5 Foot Sphere",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackMod": null,
+    "save": "DEX save",
+    "damage": "Acid",
+    "effect": null
+  },
+  {
+    "name": "Acid Splash",
+    "level": 4,
+    "castingTime": "1 Action",
+    "range": "5 Foot Sphere",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackMod": null,
+    "save": "DEX save",
+    "damage": "Acid",
+    "effect": null
   }
 ]
