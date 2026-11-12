@@ -54,7 +54,7 @@ defineProps<{
 <style scoped>
 .maximise-spell {
   background-color: #181818;
-  border-radius: 2px;
+  border-radius: 12px;
   border-color: hsla(200, 100%, 37%, 0.2);
   text-align: left;
   color: #aaa;
@@ -62,6 +62,8 @@ defineProps<{
   gap: 1rem;
   width: 100%;
   padding: 0.75rem 1rem;
+
+  margin-bottom: 4px;
 }
 
 .spell-level {
