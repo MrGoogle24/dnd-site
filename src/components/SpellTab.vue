@@ -130,7 +130,7 @@ defineProps<{
 
 .spell-effect {
   text-align: center;
-  width: 14ch;
+  width: 7ch;
 }
 
 @media (max-width: 600px) {
