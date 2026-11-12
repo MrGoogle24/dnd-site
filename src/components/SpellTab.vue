@@ -138,8 +138,11 @@ defineProps<{
   }
 
   .spell-sub-info span {
-    width: auto;
-    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
   }
 
   .spell-sub-info span:empty {
