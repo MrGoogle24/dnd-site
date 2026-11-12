@@ -80,10 +80,6 @@ defineProps<{
   display: flex;
   gap: 1rem;
 
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
   font-size: 80%;
   color: #999;
 }
@@ -126,6 +122,10 @@ defineProps<{
 .spell-damage {
   text-align: center;
   width: 10ch;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .spell-effect {
