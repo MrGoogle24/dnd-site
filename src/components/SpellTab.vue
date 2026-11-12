@@ -51,7 +51,7 @@ defineProps<{
   <div class="spell-maximised" hidden></div>
 </template>
 
-<style>
+<style scoped>
 .maximise-spell {
   background-color: #181818;
   border-radius: 2px;
@@ -60,95 +60,76 @@ defineProps<{
   color: #aaa;
   display: flex;
   gap: 1rem;
-
   width: 100%;
   padding: 0.75rem 1rem;
 }
 
 .spell-level {
   color: aquamarine;
-  width: 4ch;
+  width: 7ch;
   text-align: center;
   flex-shrink: 0;
 }
 
+.spell-info {
+  flex: 1;
+  min-width: 0; /* lets the text shrink so ellipsis can work */
+}
+
 .spell-name {
+  display: block;
   font-size: 120%;
-}
-
-.spell-sub-info {
-  display: flex;
-  gap: 1ch;
-
-  font-size: 80%;
-  color: #999;
-}
-
-.spell-castingTime {
-  text-align: center;
-  width: 12ch;
-}
-
-.spell-range {
-  text-align: center;
-  width: 14ch;
-}
-
-.spell-components {
-  text-align: center;
-  width: 9ch;
-}
-
-.spell-duration {
-  text-align: center;
-  width: 13ch;
-}
-
-.spell-school {
-  text-align: center;
-  width: 13ch;
-}
-
-.spell-attackMod {
-  text-align: center;
-  width: 3ch;
-}
-
-.spell-save {
-  text-align: center;
-  width: 8ch;
-}
-
-.spell-damage {
-  text-align: center;
-  width: 6ch;
-
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.spell-effect {
+.spell-sub-info {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 80%;
+  color: #999;
+}
+
+.spell-sub-info span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   text-align: center;
-  width: 7ch;
+}
+
+.spell-castingTime {
+  width: 14ch;
+}
+.spell-range {
+  width: 16ch;
+}
+.spell-components {
+  width: 10ch;
+}
+.spell-duration {
+  width: 14ch;
+}
+.spell-school {
+  width: 13ch;
+}
+.spell-attackMod {
+  width: 4ch;
+}
+.spell-save {
+  width: 9ch;
+}
+.spell-damage {
+  width: 9ch;
+}
+.spell-effect {
+  width: 13ch;
 }
 
 @media (max-width: 600px) {
-  .spell-sub-info {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .spell-sub-info {
-    display: flex;
-    gap: 0.3rem;
-
-    font-size: 80%;
-    color: #999;
-  }
   .maximise-spell {
-    gap: 0.3rem;
+    gap: 0.5rem;
   }
 
   .spell-sub-info {
@@ -158,6 +139,7 @@ defineProps<{
 
   .spell-sub-info span {
     width: auto;
+    max-width: 100%;
   }
 
   .spell-sub-info span:empty {
