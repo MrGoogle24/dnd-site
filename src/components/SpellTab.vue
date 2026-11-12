@@ -80,6 +80,10 @@ defineProps<{
   display: flex;
   gap: 1rem;
 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
   font-size: 80%;
   color: #999;
 }
@@ -130,6 +134,12 @@ defineProps<{
 }
 
 @media (max-width: 600px) {
+  .spell-sub-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .spell-sub-info {
     display: flex;
     gap: 0.3rem;
