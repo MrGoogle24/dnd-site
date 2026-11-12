@@ -67,7 +67,7 @@ defineProps<{
 
 .spell-level {
   color: aquamarine;
-  width: 4rem;
+  width: 4ch;
   text-align: center;
   flex-shrink: 0;
 }
@@ -78,7 +78,7 @@ defineProps<{
 
 .spell-sub-info {
   display: flex;
-  gap: 1rem;
+  gap: 1ch;
 
   font-size: 80%;
   color: #999;
@@ -86,42 +86,42 @@ defineProps<{
 
 .spell-castingTime {
   text-align: center;
-  width: 12rem;
+  width: 12ch;
 }
 
 .spell-range {
   text-align: center;
-  width: 14rem;
+  width: 14ch;
 }
 
 .spell-components {
   text-align: center;
-  width: 9rem;
+  width: 9ch;
 }
 
 .spell-duration {
   text-align: center;
-  width: 13rem;
+  width: 13ch;
 }
 
 .spell-school {
   text-align: center;
-  width: 13rem;
+  width: 13ch;
 }
 
 .spell-attackMod {
   text-align: center;
-  width: 3rem;
+  width: 3ch;
 }
 
 .spell-save {
   text-align: center;
-  width: 8rem;
+  width: 8ch;
 }
 
 .spell-damage {
   text-align: center;
-  width: 6rem;
+  width: 6ch;
 
   overflow: hidden;
   text-overflow: ellipsis;
@@ -130,7 +130,7 @@ defineProps<{
 
 .spell-effect {
   text-align: center;
-  width: 7rem;
+  width: 7ch;
 }
 
 @media (max-width: 600px) {
