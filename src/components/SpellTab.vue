@@ -132,11 +132,6 @@ defineProps<{
     gap: 0.5rem;
   }
 
-  .spell-sub-info {
-    flex-wrap: wrap;
-    gap: 0.25rem 0.5rem;
-  }
-
   .spell-sub-info span {
     min-width: 0;
     overflow: hidden;
