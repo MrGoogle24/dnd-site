@@ -121,7 +121,7 @@ defineProps<{
 
 .spell-damage {
   text-align: center;
-  width: 10ch;
+  width: 4ch;
 
   overflow: hidden;
   text-overflow: ellipsis;
