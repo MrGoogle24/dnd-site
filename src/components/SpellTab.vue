@@ -86,42 +86,42 @@ defineProps<{
 
 .spell-castingTime {
   text-align: center;
-  width: 12ch;
+  width: 12rem;
 }
 
 .spell-range {
   text-align: center;
-  width: 14ch;
+  width: 14rem;
 }
 
 .spell-components {
   text-align: center;
-  width: 9ch;
+  width: 9rem;
 }
 
 .spell-duration {
   text-align: center;
-  width: 13ch;
+  width: 13rem;
 }
 
 .spell-school {
   text-align: center;
-  width: 13ch;
+  width: 13rem;
 }
 
 .spell-attackMod {
   text-align: center;
-  width: 3ch;
+  width: 3rem;
 }
 
 .spell-save {
   text-align: center;
-  width: 8ch;
+  width: 8rem;
 }
 
 .spell-damage {
   text-align: center;
-  width: 4ch;
+  width: 6rem;
 
   overflow: hidden;
   text-overflow: ellipsis;
@@ -130,7 +130,7 @@ defineProps<{
 
 .spell-effect {
   text-align: center;
-  width: 7ch;
+  width: 7rem;
 }
 
 @media (max-width: 600px) {
